@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="1dp"
+        app:cardElevation="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+      android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageId"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/hitlar"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingTop="4dp"
+            android:layout_gravity="center">
+    <TextView
+        android:id="@+id/nameId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Monin"
+        android:textAlignment="center"
+        android:padding="8dp" />
+    <TextView
+        android:id="@+id/emailId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="momin@gmail.com"
+        android:textAlignment="center"
+        android:padding="8dp"
+        />
+    <TextView
+        android:id="@+id/birthDateId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="06/06/1990"
+        android:padding="8dp"
+        android:textAlignment="center"/>
+        </LinearLayout>
+    </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
